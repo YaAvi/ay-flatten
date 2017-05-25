@@ -1,0 +1,26 @@
+{
+  "name": "ay-flatten",
+  "version": "1.0.0",
+  "description": "flatten objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YaAvi/ay-flatten.git"
+  },
+  "keywords": [
+    "flatten",
+    "node",
+    "objects",
+    "object",
+    "flat"
+  ],
+  "author": "Avi Yaakov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YaAvi/ay-flatten/issues"
+  },
+  "homepage": "https://github.com/YaAvi/ay-flatten#readme"
+}
