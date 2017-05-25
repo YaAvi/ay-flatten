@@ -1,5 +1,5 @@
 # ay-flatten
-[![npm version](https://img.shields.io/badge/npm-1.0.0-green.svg)](https://www.npmjs.com/package/ay-flatten)
+[![npm version](https://img.shields.io/badge/npm-1.0.1-green.svg)](https://www.npmjs.com/package/ay-flatten)
 
 flatten objects
 
@@ -32,7 +32,7 @@ const obj = {
 }
 console.log(flatten(obj))
 ```
-### Output - json
+### Output
 ```javascript
 { 'person.name.first': 'John',
   'person.name.last': 'Doe',
