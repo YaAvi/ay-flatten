@@ -1,5 +1,5 @@
 const flatten = (obj, prefix = '') => {
-    let flat = {};
+    const flat = {};
     for (let prop in obj) {
         const pre = Number(prop) >= 0 ? `${prefix.slice(0, -1)}[${prop}]` : (prefix + prop);
         if (typeof obj[prop] === 'object')
