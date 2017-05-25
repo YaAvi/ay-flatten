@@ -1,6 +1,6 @@
 {
   "name": "ay-flatten",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "flatten objects",
   "main": "index.js",
   "scripts": {

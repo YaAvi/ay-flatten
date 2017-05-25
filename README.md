@@ -1,5 +1,5 @@
 # ay-flatten
-[![npm version](https://img.shields.io/badge/npm-1.0.3-green.svg)](https://www.npmjs.com/package/ay-flatten)
+[![npm version](https://img.shields.io/badge/npm-1.0.4-green.svg)](https://www.npmjs.com/package/ay-flatten)
 
 flatten objects
 

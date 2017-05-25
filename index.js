@@ -1,7 +1,7 @@
 const flatten = (obj, prefix = '') => {
     const flat = {};
     for (let prop in obj) {
-        const pre = Number(prop) >= 0 ? `${prefix.slice(0, -1)}[${prop}]` : (prefix + prop);
+        const pre = Array.isArray(obj) ? `${prefix.slice(0, -1)}[${prop}]` : (prefix + prop);
         if (typeof obj[prop] === 'object')
             Object.assign(flat, flatten(obj[prop], pre + '.'));
         else flat[pre] = obj[prop];
